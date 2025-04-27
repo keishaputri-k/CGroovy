@@ -217,8 +217,9 @@ nav ul li a:hover {
   margin-bottom: 10px;
 }
 
-#featured p{
+#featured h4{
   width: 500px;
+  font-weight: normal;
   color: #999999;
   text-align: center;
   justify-self: center;
