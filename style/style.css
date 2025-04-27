@@ -205,6 +205,26 @@ nav ul li a:hover {
   justify-content: center;
   margin-bottom: 2rem; /* Add some spacing below the section */
 }
+#featured h1{
+  width: 400px;
+  justify-self: center;
+  background: linear-gradient(to bottom right, rgb(239, 38, 38), rgba(219, 147, 87, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#featured p{
+  width: 500px;
+  color: #999999;
+  text-align: center;
+  justify-self: center;
+  margin-bottom: 50px;
+}
+
 #album-rotator {
   width: 1200px;
   float: left;
