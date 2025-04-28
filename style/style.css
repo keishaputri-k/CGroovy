@@ -141,11 +141,6 @@ nav ul li a:hover {
   display: block;
   z-index: 100vh;
 }
-
-.cur-page{
-  color:  #e50914;
-}
-
 .gapper{
   justify-content: space-between;
   display: flex;
@@ -340,16 +335,7 @@ footer .social a{
   text-decoration: none;
   margin:0 5px;
   font-size: 16px;
-  transition: 0.2s;
 }
-
-footer .social a:hover{
-  color: #555;
-  text-decoration: none;
-  margin:0 5px;
-  font-size: 16px;
-}
-
 
 #filter-section {
   background-color: var(--body-color);
@@ -463,107 +449,6 @@ footer .social a:hover{
   background: linear-gradient(to bottom right,  rgb(239, 38, 38), rgba(219, 147, 87));
 }
 
-/* <<<<<<< HEAD */
-
-
-
-/* AU Page */
-
-#about-section {
-  background-color: var(--body-color);
-  margin-top: 100px;
-  height: 100vh;
-}
-
-#about-section .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.story {
-  flex: 1;
-  min-width: 300px;
-}
-
-.image-section {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-section img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-#about-section .container h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-#about-section .container h2 {
-  margin-top: 1.5rem;
-  font-size: 1.5rem;
-  color: linear-gradient(to bottom right, rgb(239, 38, 38), rgba(219, 147, 87, 1));
-}
-
-#about-section .container p {
-  margin-top: 0.5rem;
-  line-height: 1.6;
-}
-
-#about-section .gradient-text {
-  background: linear-gradient(to bottom right, rgb(239, 38, 38), rgba(219, 147, 87, 1));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
-}
-
-
-.team-list {
-  list-style: none;
-  margin-top: 1rem;
-}
-
-.team-list li {
-  margin: 0.5rem 0;
-  font-size: 1.1rem;
-}
-
-#about-sosmed{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  font-weight: bold;
-}
-
-#about-sos-container{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  font-weight: normal;
-}
-
-#about-sos-item{
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
-}
-
-#about-sos-item img{
-  width: 20px;
-}
-
-
-
-#about-sosmed a{
-  color: white;
-}
-/* ======= */
 /* login page */
 .authentication-holder{
     background-color: var(--body-color);
@@ -756,3 +641,38 @@ footer .social a:hover{
     transform: translateX(200%);
 }
 
+.form-container a,span{
+  color: gray;
+}
+
+.form-container button {
+  background-color:  rgb(240, 62, 62);
+}
+
+.authentication-holder input {
+  color: white;
+}
+
+.radio-group {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #fff; 
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Style untuk input radio */
+.radio-group input[type="radio"] {
+    accent-color: #e50914; /* warna tombol radio */
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
