@@ -103,3 +103,5 @@ rotatorHolder.addEventListener('mousemove', (e) => {
   position = dragStartPosition + walk;
   rotatorHolder.style.transform = `translateX(${position}px)`;
 });
+
+
