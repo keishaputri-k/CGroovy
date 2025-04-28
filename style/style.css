@@ -141,6 +141,11 @@ nav ul li a:hover {
   display: block;
   z-index: 100vh;
 }
+
+.cur-page{
+  color:  #e50914;
+}
+
 .gapper{
   justify-content: space-between;
   display: flex;
@@ -335,7 +340,16 @@ footer .social a{
   text-decoration: none;
   margin:0 5px;
   font-size: 16px;
+  transition: 0.2s;
 }
+
+footer .social a:hover{
+  color: #555;
+  text-decoration: none;
+  margin:0 5px;
+  font-size: 16px;
+}
+
 
 #filter-section {
   background-color: var(--body-color);
@@ -500,6 +514,15 @@ footer .social a{
   line-height: 1.6;
 }
 
+#about-section .gradient-text {
+  background: linear-gradient(to bottom right, rgb(239, 38, 38), rgba(219, 147, 87, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+
 .team-list {
   list-style: none;
   margin-top: 1rem;
@@ -510,18 +533,32 @@ footer .social a{
   font-size: 1.1rem;
 }
 
-.join-us {
-  background-color: #222;
-  text-align: center;
-  padding: 2rem;
-  margin-top: 2rem;
+#about-sosmed{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: bold;
 }
 
-.join-us a {
-  color: linear-gradient(to bottom right, rgb(239, 38, 38), rgba(219, 147, 87, 1));
-  text-decoration: none;
+#about-sos-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: normal;
 }
 
-.join-us a:hover {
-  text-decoration: underline;
+#about-sos-item{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+#about-sos-item img{
+  width: 20px;
+}
+
+
+
+#about-sosmed a{
+  color: white;
 }
