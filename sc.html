@@ -1,111 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Song Collection</title>
-    <link rel="stylesheet" href="style/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Song Collection</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="index.html">C'Groovy</a>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">C'Groovy</a>
+      </div>
+      <div class="gapper">
+        <nav>
+          <ul>
+            <li><a href="index.html">Menu</a></li>
+            <li class="dropdown">
+              <a class="cur-page" href="sc.html">Song Collection</a>
+              <ul class="dropdown-content">
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">New Releases</a></li>
+                <li><a href="#">Genres</a></li>
+              </ul>
+            </li>
+            <li><a href="au.html">About Us</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="lgn-btn">Join Us</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="filter-section">
+    <div class="container">
+        <div class="filter-holder">
+            <h1>Filter Music</h1>
+            <div class="filter-flex">
+            <div class="select-box">
+                <div class="select-button">
+                <span>All Genres</span>
+                <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="options">
+                <div class="option" data-value="Pop">Pop</div>
+                <div class="option" data-value="R&B">R&B</div>
+                <div class="option" data-value="Jazz">Jazz</div>
+                <div class="option" data-value="K-pop">K-pop</div>
+                <div class="option" data-value="Rock">Rock</div>
+                </div>
             </div>
-            <div class="gapper">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Menu</a></li>
-                        <li class="dropdown">
-                            <a class="cur-page" href="sc.html" class="dropdown-btn">Song Collection</a>
-                            <ul class="dropdown-content">
-                                <li><a href="#">Popular</a></li>
-                                <li><a href="#">New Releases</a></li>
-                                <li><a href="#">Genres</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="au.html" >About Us</a></li>
-                    </ul>
-                </nav>
-                <a href="#" class="lgn-btn">Join Us</a>
+            <button class="find-music-button">Find Music</button>
             </div>
         </div>
-    </header>
-
-    <section id="filter-section">
-        <div class="container">
-            <div class="filter-holder">
-                <h1>Filter Music</h1>
-                <div class="filter-flex">
-                    <div class="select-box">
-                        <div class="select-button">
-                            <span>All Genres</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </div>
-                        <div class="options">
-                            <div class="option" data-value="Pop">Pop</div>
-                            <div class="option" data-value="R&B">R&B</div>
-                            <div class="option" data-value="Jazz">Jazz</div>
-                            <div class="option" data-value="K-pop">K-pop</div>
-                            <div class="option" data-value="Rock">Rock</div>
+        <div class="music-container">
+            <h2>Pop Songs</h2>
+            <div class="album-scroll-wrapper">
+                <div class="album-scroll-container">
+                    <div div class="album-card">
+                        <div class="album-content">
+                            <div class="album-top">
+                                <img src="assets/the1975.png" alt="Album Art" />
+                                <p class="track-title">Song Name</p>
+                                <p class="artist-name">Artist</p>
+                            </div>
+                            <div class="album-footer">
+                                <p>#01</p>
+                                <a href="#" class="learn-more-btn">Learn More →</a>
+                            </div>
                         </div>
                     </div>
-                    <button class="find-music-button">Find Music</button>
-                </div>
-            </div>
-        </div>
-    </section>
+    
+                    <div class="album-card">
+                        <div class="album-content">
+                            <div class="album-top">
+                                <img src="assets/the1975.png" alt="Album Art" />
+                                <p class="track-title">Song Name</p>
+                                <p class="artist-name">Artist</p>
+                            </div>
+                            <div class="album-footer">
+                                <p>#02</p>
+                                <a href="#" class="learn-more-btn">Learn More →</a>
+                            </div>
+                        </div>
+                    </div>
 
-    <section id="featured-music">
-        <div class="music-container">
-          <h2>Featured Songs</h2>
-          <div class="album-scroll-wrapper">
-            <div class="album-scroll-container">
-              <div class="album-card">
-                <div class="album-content">
-                  <div class="album-top">
-                    <img src="assets/the1975.png" alt="Album Art">
-                    <p class="track-title">Song Name</p>
-                    <p class="artist-name">Artist</p>
-                  </div>
-                  <div class="album-footer">
-                    <p>#01</p>
-                    <a href="#" class="learn-more-btn">Learn More →</a>
-                  </div>
-                </div>
-              </div>
-      
-              <!-- Repeat as needed -->
-              <div class="album-card">
-                <div class="album-content">
-                  <div class="album-top">
-                    <img src="assets/the1975.png" alt="Album Art">
-                    <p class="track-title">Song Name</p>
-                    <p class="artist-name">Artist</p>
-                  </div>
-                  <div class="album-footer">
-                    <p>#02</p>
-                    <a href="#" class="learn-more-btn">Learn More →</a>
-                  </div>
-                </div>
-              </div>
-      
-              <!-- more .album-card elements... -->
-            </div>
-          </div>
-        </div>
-    </section>
-      
+                    <div class="album-card">
+                        <div class="album-content">
+                            <div class="album-top">
+                                <img src="assets/the1975.png" alt="Album Art" />
+                                <p class="track-title">Song Name</p>
+                                <p class="artist-name">Artist</p>
+                            </div>
+                            <div class="album-footer">
+                                <p>#02</p>
+                                <a href="#" class="learn-more-btn">Learn More →</a>
+                            </div>
+                        </div>
+                    </div>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 C'Groovy. All rights reserved</p>
-            <div class="social">
-               <a href="#">Instagram</a>
-               <a href="#">Twitter</a>
-               <a href="#">Facebook</a>
+                    <div class="album-card">
+                        <div class="album-content">
+                            <div class="album-top">
+                                <img src="assets/the1975.png" alt="Album Art" />
+                                <p class="track-title">Song Name</p>
+                                <p class="artist-name">Artist</p>
+                            </div>
+                            <div class="album-footer">
+                                <p>#02</p>
+                                <a href="#" class="learn-more-btn">Learn More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </footer>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 C'Groovy. All rights reserved</p>
+      <div class="social">
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">Facebook</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
