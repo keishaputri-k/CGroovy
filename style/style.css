@@ -776,12 +776,3 @@ footer .social a{
     height: 16px;
     cursor: pointer;
 }
-
-#sign-in {
-  color: var(--text-color);
-  text-decoration: var(--font-bold);
-  background-color:  rgb(240, 62, 62);
-  padding:10px 40px;
-  border-radius: 5px ;
-  border: none;
-}
