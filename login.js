@@ -10,3 +10,17 @@ registerBtn.addEventListener('click', () => {
 loginBtn.addEventListener('click', () => {
     container.classList.remove("active");
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const signupForm = document.getElementById("signup-form");
+
+    signupForm.addEventListener("submit", function (event) {
+        const ageInput = document.getElementById("age");
+        const age = parseInt(ageInput.value);
+
+        if (age < 13) {
+            event.preventDefault();
+            alert("You must be at least 13 years old to register.");
+        }
+    });
+});
