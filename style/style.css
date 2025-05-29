@@ -119,8 +119,6 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-
-
 .dropdown-content{
   display: none;
   position: absolute;
@@ -169,10 +167,6 @@ nav ul li a:hover {
 .cur-page{
   color: #e50914;
 }
-
-
-
-
 
 /* section */
 #carousel{
