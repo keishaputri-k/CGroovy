@@ -1265,99 +1265,92 @@ Hit you with that ddu-du, ddu-du, du`,
       year: 2021,
       desc: "Uplifting song with bright melodies and reassuring lyrics that remind listeners to keep going, even through tough times.",
       lyrics: `[Chorus: Haechan, Chenle]
-Don't stop the music, 왜 멈춰 있어?
-춤추듯 돌아가, life is a party so
-딱히 뭘 안 해도, tick-tock, tick-tock
-Life is still going on, 그저 흘러가
-Hey, DJ play that song, 다음 노래
-It's like a music box, 걱정은 그만해
-오늘은 즐겨봐 잠시라도
-Life is still going on, 암튼 흘러가
+Don't stop the music, 왜 멈춰 있어? (wae meomchwo isseo?)
+춤추듯 돌아가, life is a party so (chumchudeut doraga, life is a party so)
+딱히 뭘 안 해도, tick-tock, tick-tock (ttakhi mwol an haedo, tick-tock, tick-tock)
+Life is still going on, 그저 흘러가 (geujeo heulleoga)
+Hey, DJ play that song, 다음 노래 (daeum norae)
+It's like a music box, 걱정은 그만해 (geokjeongeun geumanhae)
+오늘은 즐겨봐 잠시라도 (oneureun jeulgyeobwa jamsirado)
+Life is still going on, 암튼 흘러가 (amteun heulleoga)
 
 [Verse 1: Mark, Jeno, Jisung]
-야, 요즘 왜 그리 풀이 죽어 있어?
-야, 어깨 좀 펴라 옆엔 내가 있어
-인생이란 게 뜻대로 안 되지, uh?
-참 맘이란 게 맘대로 안 되지, uh?
+야, 요즘 왜 그리 풀이 죽어 있어? (ya, yojeum wae geuri puri jugeo isseo?)
+야, 어깨 좀 펴라 옆엔 내가 있어 (ya, eokkae jom pyeora yeoppen naega isseo)
+인생이란 게 뜻대로 안 되지, uh? (insaengiran ge tteutdaero an doeji, uh?)
+참 맘이란 게 맘대로 안 되지, uh? (cham mamiran ge mamdaero an doeji, uh?)
 That's right
-어른이 돼가나 봐, 사는 게 그런가 봐
-사람들 다 앞서 나가는 듯한, 나 혼자 멈춘 듯한
+어른이 돼가나 봐, 사는 게 그런가 봐 (eoreuni dwaegana bwa, saneun ge geureonga bwa)
+사람들 다 앞서 나가는 듯한, 나 혼자 멈춘 듯한 (saramdeul da apseo naganeun deuthan, na honja meomchun deuthan)
 That's a life
-어쩔 수 없는 듯한 막연한 불안함
+어쩔 수 없는 듯한 막연한 불안함 (eojjeol su eomneun deuthan magyeonhan buranham)
 Tell me if you're feeling that
-나도 그래 가끔씩
+나도 그래 가끔씩 (nado geurae gakkeumssik)
 
 [Pre-Chorus: Renjun, Haechan]
-고민 따윈 잠시 던져 놔
+고민 따윈 잠시 던져 놔 (gomin ttawin jamsi deonjyeo nwa)
 To the sound of the music
-마음속의 소릴 들어봐
-원하는 건, do it, 그냥 do it
-See NCT DREAM Live
-Get tickets as low as $348
-
-You might also like
-The Tortured Poets Department
-Taylor Swift
-loml
-Taylor Swift
-Is It Over Now? (Taylor’s Version) [From The Vault]
-Taylor Swift
+마음속의 소릴 들어봐 (maeumsogui soril deureobwa)
+원하는 건, do it, 그냥 do it (wonhaneun geon, do it, geunyang do it)
 
 [Chorus: Jisung, Jaemin]
-Don't stop the music, 왜 멈춰 있어?
-춤추듯 돌아가, life is a party so
-딱히 뭘 안 해도, tick-tock, tick-tock
-Life is still going on, 그저 흘러가
-Hey, DJ play that song, 다음 노래
-It's like a music box, 걱정은 그만해
-오늘은 즐겨봐 잠시라도
-Life is still going on, 암튼 흘러가
+Don't stop the music, 왜 멈춰 있어? (wae meomchwo isseo?)
+춤추듯 돌아가, life is a party so (chumchudeut doraga, life is a party so)
+딱히 뭘 안 해도, tick-tock, tick-tock (ttakhi mwol an haedo, tick-tock, tick-tock)
+Life is still going on, 그저 흘러가 (geujeo heulleoga)
+Hey, DJ play that song, 다음 노래 (daeum norae)
+It's like a music box, 걱정은 그만해 (geokjeongeun geumanhae)
+오늘은 즐겨봐 잠시라도 (oneureun jeulgyeobwa jamsirado)
+Life is still going on, 암튼 흘러가 (amteun heulleoga)
 
-[Verse 2: Jeno, Mark, Jisung, Jaemin, *Jaemin & Haechan*]
-자 다들 하잖아 괜한 짓 엄한짓두
-누가 보면은 금방이라도 세상이 망한 줄
-균형을 잡아가는 중 (Yeah), 헛발질 좀 한 것뿐 (Yeah)
-원기옥을 모았다 쏴 (Yeah), tick-tick-tick, boom
-태엽을 감아, 다시 해도 괜찮아
-조금 비틀대다 혼자만의 리듬을 찾아
-잠깐 흔들려도 돼, 멀리 돌아가도 돼
-즐길 수 있으면 돼, 결국 행복하면 *돼*
+[Verse 2: Jeno, Mark, Jisung, Jaemin, Jaemin & Haechan]
+자 다들 하잖아 괜한 짓 엄한짓두 (ja dadeul hajana gwaenhan jit eomhanjitdu)
+누가 보면은 금방이라도 세상이 망한 줄 (nuga bomyeoneun geumbangirado sesangi manghan jul)
+균형을 잡아가는 중 (Yeah), 헛발질 좀 한 것뿐 (gyunhyeongeul jabaganeun jung, heotbaljil jom han geotppun)
+원기옥을 모았다 쏴 (Yeah), tick-tick-tick, boom (won-giokeul moatta sswa, tick-tick-tick, boom)
+태엽을 감아, 다시 해도 괜찮아 (taeyeobeul gama, dasi haedo gwaenchana)
+조금 비틀대다 혼자만의 리듬을 찾아 (jogeum biteuldaeda honjamanui rideumeul chaja)
+잠깐 흔들려도 돼, 멀리 돌아가도 돼 (jamkkan heundeullyeodo dwae, meolli doragado dwae)
+즐길 수 있으면 돼, 결국 행복하면 돼 (jeulgil su isseumyeon dwae, gyeolguk haengbokhamyeon dwae)
 
 [Pre-Chorus: Chenle, Chenle & Haechan, Renjun, Renjun & Haechan]
-고민 따윈 잠시 던져 놔
+고민 따윈 잠시 던져 놔 (gomin ttawin jamsi deonjyeo nwa)
 To the sound of the music
-마음속의 소릴 들어봐
-원하는 건, do it, 그냥 do it
-
+마음속의 소릴 들어봐 (maeumsogui soril deureobwa)
+원하는 건, do it, 그냥 do it (wonhaneun geon, do it, geunyang do it)
 
 [Chorus: Mark, Chenle, Jeno, Renjun]
-Don't stop the music, 왜 멈춰 있어?
-춤추듯 돌아가, life is a party so
-딱히 뭘 안 해도, tick-tock (Tick-tock, oh) tick-tock
-Life is still going on, 그저 흘러가
-(Oh) Hey, DJ play that song, 다음 노래
-It's like a music box, 걱정은 그만해
-오늘은 즐겨봐 (Yeah) 잠시라도
-Life is still going on, 암튼 흘러가
+Don't stop the music, 왜 멈춰 있어? (wae meomchwo isseo?)
+춤추듯 돌아가, life is a party so (chumchudeut doraga, life is a party so)
+딱히 뭘 안 해도, tick-tock (Tick-tock, oh) tick-tock (ttakhi mwol an haedo, tick-tock, tick-tock)
+Life is still going on, 그저 흘러가 (geujeo heulleoga)
+(Oh) Hey, DJ play that song, 다음 노래 (daeum norae)
+It's like a music box, 걱정은 그만해 (geokjeongeun geumanhae)
+오늘은 즐겨봐 (Yeah) 잠시라도 (oneureun jeulgyeobwa jamsirado)
+Life is still going on, 암튼 흘러가 (amteun heulleoga)
 
-[Bridge: Jaemin, Jisung, Renjun, Haechan, *Chenle*, **Jeno**]
-요즘 왜 그리 풀이 죽어 있어? Yeah, yeah, yeah, yeah
-어깨 좀 펴라 옆엔 내가 있어 oh, yeah
+[Bridge: Jaemin, Jisung, Renjun, Haechan, Chenle, Jeno]
+요즘 왜 그리 풀이 죽어 있어? Yeah, yeah, yeah, yeah (yojeum wae geuri puri jugeo isseo?)
+어깨 좀 펴라 옆엔 내가 있어 oh, yeah (eokkae jom pyeora yeoppen naega isseo)
 So let's go (Let's go)
-그 어떤 것도 막지 못해
-*언젠가 지나갈 거야, 결국에 알게 될 거야
-So what you waiting for?* (Waiting for?)
-**One, two, three, four**
+그 어떤 것도 막지 못해 (geu eotteon geotdo makji mothae)
+언젠가 지나갈 거야, 결국에 알게 될 거야 (eonjenga jinagal geoya, gyeolguke alge doel geoya)
+So what you waiting for? (Waiting for?)
+One, two, three, four
 
 [Chorus: All, Haechan, Chenle, Renjun]
-Don't stop the music, 왜 멈춰 있어? (Woo, ooh, woo)
-춤추듯 돌아가, life is a party so
-딱히 뭘 안 해도, tick-tock, tick-tock
-Life is still going on (Yeah), 그저 흘러가
-Hеy, DJ play that song (Yeah), 다음 노래
-It's like a music box, 걱정은 그만해
-오늘은 즐겨봐 (Oh), 잠시라도
-Life is still going on, 암튼 흘러가`,
+Don't stop the music, 왜 멈춰 있어? (Woo, ooh, woo) (wae meomchwo isseo?)
+춤추듯 돌아가, life is a party so (chumchudeut doraga, life is a party so)
+딱히 뭘 안 해도, tick-tock, tick-tock (ttakhi mwol an haedo, tick-tock, tick-tock)
+Life is still going on (Yeah), 그저 흘러가 (geujeo heulleoga)
+Hey, DJ play that song (Yeah), 다음 노래 (daeum norae)
+It's like a music box, 걱정은 그만해 (geokjeongeun geumanhae)
+오늘은 즐겨봐 (Oh), 잠시라도 (oneureun jeulgyeobwa jamsirado)
+Life is still going on, 암튼 흘러가 (amteun heulleoga)
+
+[Outro: Chenle]
+Life is still going on
+My life still goes on`,
       genre: "K-Pop",
       type: "Group",
     },
