@@ -1064,13 +1064,84 @@ Oh-oh-oh-oh, oh
     },
 
     13: {
-      title: "",
-      artist: "",
-      image: "assets/kpop/whiplash.png",
-      audio: "assets/kpop/whiplash.mp3",
-      year: 2021,
-      desc: "",
-      lyrics: ``,
+      title: "Shadow",
+      artist: "Seventeen",
+      image: "assets/kpop/seventeen.png",
+      audio: "assets/kpop/shadow.mp3",
+      year: 2022,
+      desc: "Our focus for this track was the contrast between the track and theme of the song. Perhaps the contrast that makes the sounds feel slightly exaggerated is also where the sentiments of ‘80s and hyperpop stem from. The track is quite rhythmic in nature with its roots in 2-step, which builds a contrast to the weight of the idea of embracing our inner shadows.",
+      lyrics: `[Verse 1: Joshua, Dino, Hoshi, Jeonghan]
+저 멀리 뜨거운 해 떠오르지 않길 원했어 (jeo meolli tteugeoun hae tteooreuji ankil wonhaesseo)
+빛의 반대편 그늘진 모든 게 싫어서 (bichiui bandaepyeon geuneuljin modeun ge sirheoseo)
+걸음걸이마다 따라와서 시선은 항상 그곳에 있어 (georeumgeorimada ttaraowaseo siseoneun hangsang geugose isseo)
+도망치는 내 모습이 너무 싫었어 (domangchineun nae moseubi neomu sireosseo)
+
+[Pre-Chorus: THE 8, WOOZI]
+어느새 우린 닮아가고 있었어 (eoneusae urin dalmagago isseosseo)
+마치 데칼코마니인 것처럼 (machi dekalkomanin geotcheoreom)
+너와 마주 하고 싶은 맘에 (neowa maju hago sipeun mame)
+
+[Chorus: Mingyu, Wonwoo]
+Shadow, my shadow, my shadow
+널 남에게 보이지 않으려 (neol namege boiji aneuryeo)
+Shadow, my shadow, my shadow
+미워하고 아파도 했어 (miwohago apado haesseo)
+Shadow, my shadow, my shadow
+
+[Post-Chorus: SeungKwan, DK]
+Oh, 이제 난 알아 너 또한 나인걸 (ije nan ara neo ttohan naingeol)
+숨기고 싶지 않아, I want to hold your hand (sumgigo sipji ana, I want to hold your hand)
+나의 어두움마저 밝게 빛나고 말 테니까 (naui eoduummajeo balkge bitnago mal tenikka)
+Baby, I'm a shadow of you
+
+[Verse 2: WOOZI, Jun, THE 8, Joshua]
+달렸어 네게서 도망치려 (dallyeosseo negeso domangchiryeo)
+숨었어 빛이 없는 곳으로 (sum eosseo bichi eomneun goseuro)
+도망치는 마음으로 나는 run, run, run (domangchineun maeumeuro naneun run, run, run)
+숨소리마저 똑같아서 내 마음이 널 듣고 싶어 해 (sumsorimajeo ttokgataseo nae maeumi neol deutgo sipeo hae)
+도망치는 내 모습이 너무 싫었어 (domangchineun nae moseubi neomu sireosseo)
+
+[Pre-Chorus: Vernon, Jun, Wonwoo]
+어느새 우린 닮아가고 있었어 (eoneusae urin dalmagago isseosseo)
+마치 데칼코마니인 것처럼 (machi dekalkomanin geotcheoreom)
+너와 마주 하고 싶은 맘에 (neowa maju hago sipeun mame)
+
+[Chorus: Hoshi, Vernon]
+Shadow, my shadow, my shadow
+널 남에게 보이지 않으려 (neol namege boiji aneuryeo)
+Shadow, my shadow, my shadow
+미워하고 아파도 했어 (miwohago apado haesseo)
+Shadow, my shadow, my shadow
+
+[Post-Chorus: DK, SeungKwan]
+Oh, 이제 난 알아 너 또한 나인걸 (ije nan ara neo ttohan naingeol)
+숨기고 싶지 않아, I want to hold your hand (sumgigo sipji ana, I want to hold your hand)
+나의 어두움마저 밝게 빛나고 말 테니까 (naui eoduummajeo balkge bitnago mal tenikka)
+Baby, I'm a shadow of you
+
+[Bridge: Mingyu, S.COUPS, Dino]
+Stay with me, 어느 순간에도 (eoneu sunganedo)
+같은 빛 같은 그림자 되어 (gateun bit gateun geurimja doeeo)
+어느 곳에서도 너를 안고 (eoneu gosesedo neoreul anko)
+Yeah, 검은색 칠해진 널 외면하기만 했어 (geomeunsaek chilhaejin neol oemyeonhagiman haesseo)
+서로의 똑같은 모습을 잠시 잊은 채로 (seoroui ttokgateun moseubeul jamsi ijeun chaero)
+부정하기 바빴었던 어제 (bujeonghagi bappasseotdeon eoje)
+드넓은 지구 한가운데 (deuneolbeun jigu hangaunde)
+우리의 관계는 유일해 (uriui gwangyeneun yuilhae)
+같은 발맞춰 달려 everywhere (gateun balmatchwo dallyeo everywhere)
+
+[Chorus: Mingyu, S.COUPS]
+Shadow, my shadow, my shadow
+널 남에게 보이지 않으려 (neol namege boiji aneuryeo)
+Shadow, my shadow, my shadow
+미워하고 아파도 했어 (miwohago apado haesseo)
+Shadow, my shadow, my shadow
+
+[Post-Chorus: WOOZI, Jun, Jeonghan]
+Oh, 이제 난 알아 너 또한 나인걸 (ije nan ara neo ttohan naingeol)
+숨기고 싶지 않아, I want to hold your hand (sumgigo sipji ana, I want to hold your hand)
+나의 어두움마저 밝게 빛나고 말 테니까 (naui eoduummajeo balkge bitnago mal tenikka)
+Baby, I'm a shadow of you`,
       genre: "K-Pop",
       type: "Group",
     },
