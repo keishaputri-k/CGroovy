@@ -1,107 +1,91 @@
 // Carousel
-const slider = document.querySelector('.gallery');
+const SCROLL_SPEED = 3;
 let isDown = false;
 let startX;
 let scrollLeft;
 
-// Dragging logic
-slider.addEventListener('mousedown', e => {
+const $slider = $('.gallery');
+const $items = $('.gallery li');
+const itemWidth = $slider.outerWidth() + 16; // 16px = 1rem gap
+
+$slider.on('mousedown', function(e) {
   isDown = true;
-  slider.classList.add('active');
-  startX = e.pageX - slider.offsetLeft;
-  scrollLeft = slider.scrollLeft;
+  $slider.addClass('active');
+  startX = e.pageX - $slider.offset().left;
+  scrollLeft = $slider.scrollLeft();
 });
-slider.addEventListener('mouseleave', _ => {
+
+$slider.on('mouseleave mouseup', function() {
   isDown = false;
-  slider.classList.remove('active');
+  $slider.removeClass('active');
 });
-slider.addEventListener('mouseup', _ => {
-  isDown = false;
-  slider.classList.remove('active');
-});
-slider.addEventListener('mousemove', e => {
+
+$slider.on('mousemove', function(e) {
   if (!isDown) return;
   e.preventDefault();
-  const x = e.pageX - slider.offsetLeft;
-  const SCROLL_SPEED = 3;
+  const x = e.pageX - $slider.offset().left;
   const walk = (x - startX) * SCROLL_SPEED;
-  slider.scrollLeft = scrollLeft - walk;
+  $slider.scrollLeft(scrollLeft - walk);
 });
 
 // Auto-scroll logic with looping effect
 let currentIndex = 0;
-const items = document.querySelectorAll('.gallery li');
-const itemWidth = slider.clientWidth + 16; // 16px = 1rem gap
 
 function autoScroll() {
   currentIndex++;
-  
-  // If we're at the end of the list, scroll back to the start
-  if (currentIndex >= items.length) {
-    currentIndex = 0; // Reset to first item
-    slider.scrollLeft = 0; // Optionally reset scroll position immediately
+  if (currentIndex >= $items.length) {
+    currentIndex = 0;
+    $slider.scrollLeft(0);
   }
-  
-  slider.scrollTo({
-    left: currentIndex * itemWidth,
-    behavior: 'smooth'
-  });
+
+  $slider.animate({
+    scrollLeft: currentIndex * itemWidth
+  }, 500); // animation duration in ms
 }
 
 setInterval(autoScroll, 5000); // Change every 5 seconds
 
 
-//card featured
-const rotatorHolder = document.getElementById('album-rotator-holder');
+// Card featured (rotator)
+const $rotatorHolder = $('#album-rotator-holder');
+$rotatorHolder.html($rotatorHolder.html() + $rotatorHolder.html()); // Duplicate content
 
-// Duplicate the content to make infinite scroll illusion
-rotatorHolder.innerHTML += rotatorHolder.innerHTML;
-
-let scrollSpeed = 0.5; // Adjust speed here
+let scrollSpeed = 0.5;
 let position = 0;
 
 let isDragging = false;
 let dragStartX = 0;
 let dragStartPosition = 0;
 
-// Auto-move animation
 function animate() {
   if (!isDragging) {
     position -= scrollSpeed;
-    if (Math.abs(position) >= rotatorHolder.scrollWidth / 2) {
+    if (Math.abs(position) >= $rotatorHolder[0].scrollWidth / 2) {
       position = 0;
     }
-    rotatorHolder.style.transform = `translateX(${position}px)`;
+    $rotatorHolder.css('transform', `translateX(${position}px)`);
   }
   requestAnimationFrame(animate);
 }
 
 animate();
 
-// Dragging
-rotatorHolder.addEventListener('mousedown', (e) => {
+$rotatorHolder.on('mousedown', function(e) {
   isDragging = true;
   dragStartX = e.pageX;
   dragStartPosition = position;
-  rotatorHolder.style.cursor = 'grabbing';
+  $rotatorHolder.css('cursor', 'grabbing');
 });
 
-rotatorHolder.addEventListener('mouseleave', () => {
+$rotatorHolder.on('mouseleave mouseup', function() {
   isDragging = false;
-  rotatorHolder.style.cursor = 'grab';
+  $rotatorHolder.css('cursor', 'grab');
 });
 
-rotatorHolder.addEventListener('mouseup', () => {
-  isDragging = false;
-  rotatorHolder.style.cursor = 'grab';
-});
-
-rotatorHolder.addEventListener('mousemove', (e) => {
+$rotatorHolder.on('mousemove', function(e) {
   if (!isDragging) return;
   const x = e.pageX;
   const walk = x - dragStartX;
   position = dragStartPosition + walk;
-  rotatorHolder.style.transform = `translateX(${position}px)`;
+  $rotatorHolder.css('transform', `translateX(${position}px)`);
 });
-
-
