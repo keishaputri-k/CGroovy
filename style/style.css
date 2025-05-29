@@ -36,6 +36,12 @@
   margin: 0;
 }
 
+html,body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
@@ -113,10 +119,12 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
+
+
 .dropdown-content{
   display: none;
   position: absolute;
-  top: 38px;
+  top: 100%;
   left: 0;
   background-color: #141414;
   min-width: 150px;
@@ -129,7 +137,7 @@ nav ul li a:hover {
 }
 
 .dropdown-content li a{
-  padding: 10px;
+  padding: 10px 14px;;
   color: #fff;
 }
 
@@ -156,6 +164,15 @@ nav ul li a:hover {
   border-radius: 5px ;
   border: none;
 }
+
+
+.cur-page{
+  color: #e50914;
+}
+
+
+
+
 
 /* section */
 #carousel{
@@ -340,7 +357,7 @@ footer .social a{
 #filter-section {
   background-color: var(--body-color);
   margin-top: 100px;
-  height: 100vh;
+
 }
 
 #filter-section .container {
@@ -455,7 +472,8 @@ footer .social a{
 #about-section {
   background-color: var(--body-color);
   margin-top: 100px;
-  height: 100vh;
+  height: auto;
+  
 }
 
 #about-section .container {
@@ -517,35 +535,120 @@ footer .social a{
   font-size: 1.1rem;
 }
 
-#about-sosmed{
+.about-sosmed{
   display: flex;
   flex-direction: column;
   gap: 10px;
   font-weight: bold;
 }
 
-#about-sos-container{
+.about-sos-container{
   display: flex;
   flex-direction: column;
-  gap: 10px;
   font-weight: normal;
 }
 
-#about-sos-item{
+.about-sos-item{
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 10px;
+  padding: 3px 0;
 }
 
-#about-sos-item img{
+.about-sos-item img{
   width: 20px;
 }
 
 
 
-#about-sosmed a{
+.about-sosmed a{
   color: white;
 }
+
+
+.timeline{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+/* Outer Layer - Line Horizontal */
+.timeline-line {
+  display: flex;
+  position: relative;
+  border-top: 2px solid #ffffff;
+  padding-top: 40px;
+  gap: 40px;
+  justify-content: center;
+}
+
+/* Card Container */
+.timeline-card {
+  position: relative;
+  background: #333;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 15px;
+  min-width: 250px;
+  max-width: 250px;
+  text-align: justify;
+}
+
+/* Info */
+.timeline-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 14px;
+}
+
+/* Title */
+.timeline .timeline-year {
+  position: relative;
+  text-align: center  ;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Timeline Dot */
+.timeline-year::before {
+  content: "";
+  position: absolute;
+  top: -60px; /* Distance above the title */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  background: white;
+  border-radius: 50%;
+  border: 3px solid orangered;
+  z-index: 2;
+}
+
+/* Optional: Add connecting vertical line from dot to timeline */
+.timeline-card::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 40px;
+  background: #ffffff;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -867,4 +970,134 @@ footer .social a{
 
 .music-container{
   margin-top: 50px;
+}
+
+
+/* Detail Page Styling */
+#song-detail {
+  margin-top: 120px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+}
+
+.back-btn-wrapper {
+  left: 70px ;
+  position: absolute;
+}
+
+
+
+.back-btn:hover {
+  background-color: orange;
+  color: black;
+  cursor: pointer;
+}
+
+.song-detail-header {
+  background-color: #3a3530; /* Warna coklat keabuan gelap */
+  padding: 30px; /* Padding di dalam header detail */
+  color: var(--text-color, #fff);
+  display: flex; /* Menggunakan flexbox untuk layout internal */
+  align-items: flex-end;
+  gap: 25px;
+  border-radius: 8px; /* Optional: rounded corners untuk header ini */
+  margin-bottom: 2rem; /* Jarak ke song-detail-body */
+}
+
+.banner-album-art-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  
+}
+
+
+
+
+.banner-text-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.banner-song-type {
+  font-size: 0.8rem;
+  font-weight: 500; /* var(--font-medium) */
+  text-transform: uppercase;
+  color: #c0c0c0;
+  margin-bottom: 5px;
+}
+
+.banner-song-title { /* Menggantikan h1#song-title asli */
+  font-size: 3.5rem; /* Disesuaikan dari 4rem agar tidak terlalu besar */
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.banner-artist-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #dcdcdc;
+}
+
+.banner-artist-avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.banner-artist-name .banner-genre{ /* Menggantikan h4#artist-name asli */
+  font-weight: 600; /* var(--font-semi-bold) */
+  color: #fff;
+}
+
+.banner-dot {
+  padding: 0 2px;
+}
+
+
+
+
+.song-detail-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #282828;
+  padding: 20px;
+  width: 900px;
+  border-radius: 10px;
+}
+
+
+.song-detail-mp audio {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.song-detail-lyrics {
+  flex: 2;
+  min-width: 280px;
+}
+
+.border-lyrics{
+  border-left: 4px solid orangered;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.song-lyrics {
+  white-space: pre-line;
+  line-height: 1.6;
+  font-size: 1rem;
 }
