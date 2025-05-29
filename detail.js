@@ -122,6 +122,7 @@ console.log("song2:", document.getElementById("song2"));
       artist: "Madison Beer",
       image: "/assets/pop/reckless.png",
       audio: "/assets/pop/reckless.mp3",
+      desc: "A heartfelt pop ballad about vulnerability and heartbreak.",
       year: 2022,
       lyrics: `Hey, this is a story I hate
     And telling it might make me break
@@ -169,7 +170,8 @@ console.log("song2:", document.getElementById("song2"));
     Hey, this is a story I hate
     But I told it to cope with the pain
     I'm so sorry if you can relate`,
-      genre: "Pop"
+      genre: "Pop",
+      type: "Group",
     
     },
     2: {
@@ -178,8 +180,10 @@ console.log("song2:", document.getElementById("song2"));
       image: "assets/the1975.png",
       audio: "assets/blinding-lights.mp3",
       year: 2020,
+      desc: "Belum ada",
       lyrics: `I said, ooh, I'm blinded by the lights...`,
-      genre: "Pop"
+      genre: "Pop",
+      type: "Group",
     },
     3: {
       title: "Good 4 U",
@@ -187,8 +191,10 @@ console.log("song2:", document.getElementById("song2"));
       image: "assets/the1975.png",
       audio: "assets/good-4-u.mp3",
       year: 2021,
+      desc: "Belum ada",
       lyrics: `Well, good for you, I guess you moved on really easily...`,
-      genre: "Pop"
+      genre: "Pop",
+      type: "Group",  
     },
     4: {
       title: "Good 4 U",
@@ -196,8 +202,10 @@ console.log("song2:", document.getElementById("song2"));
       image: "assets/the1975.png",
       audio: "assets/good-4-u.mp3",
       year: 2021,
+      desc: "Belum ada",
       lyrics: `Well, good for you, I guess you moved on really easily...`,
-      genre: "R&B"
+      genre: "R&B",
+      type: "Group",
     },
     5: {
       title: "Good 4 U",
@@ -205,8 +213,10 @@ console.log("song2:", document.getElementById("song2"));
       image: "assets/the1975.png",
       audio: "assets/good-4-u.mp3",
       year: 2021,
+      desc: "Belum ada",
       lyrics: `Well, good for you, I guess you moved on really easily...`,
-      genre: "R&B"
+      genre: "R&B",
+      type: "Group",
       
     } ,
     6: {
@@ -215,6 +225,7 @@ console.log("song2:", document.getElementById("song2"));
       image: "/assets/rnb/saturn.png",
       audio: "/assets/rnb/saturn.mp3",
       year: 2024,
+      desc: "Belum ada",
       lyrics: `If there's another universe
 Please make some noise (noise)
 Give me a sign (sign)
@@ -276,16 +287,19 @@ I always say
 I'll be better on Saturn
 None of this matters
 Dreaming of Saturn, oh` ,
-      genre: "R&B"
+      genre: "R&B",
+      type: "Group",
+      
     },
 
-    11: {
-    title: "Whiplash",
-    artist: "Aespa",
-    image: "assets/kpop/whiplash.png",
-    audio: "assets/kpop/whiplash.mp3",
-    year: 2021,
-    lyrics: `one look, give 'em whiplash
+      11: {
+      title: "Whiplash",
+      artist: "Aespa",
+      image: "assets/kpop/whiplash.png",
+      audio: "assets/kpop/whiplash.mp3",
+      year: 2021,
+      desc: "Belum ada",
+      lyrics: `one look, give 'em whiplash
 Beat drop with a big flash
 집중해 좀 더 think fast
 이유 넌 이해 못 해 uh
@@ -356,8 +370,9 @@ Whip-whiplash, whip-whiplash
 Whip-whiplash, whip-whiplash
 Whip-whiplash, whip-whiplash
 Whip-whiplash, one look, give 'em whiplash`,
-    genre: "K-Pop",
-    }
+      genre: "K-Pop",
+      type: "Group",
+      }
 
 
 
@@ -369,10 +384,12 @@ Whip-whiplash, one look, give 'em whiplash`,
   if (song) {
     document.getElementById("banner-song-title").innerText = song.title;
     document.getElementById("banner-artist-name").innerText = song.artist;
+    document.getElementById("banner-song-type").innerText = song.type;
     document.getElementById("banner-song-year").innerText = song.year;
     document.getElementById("banner-album-art").src = song.image;
     document.getElementById("banner-genre").innerText = song.genre
     document.getElementById("song-audio").src = song.audio;
+    document.getElementById("song-desc").innerText = song.desc
     document.getElementById("song-lyrics").innerText = song.lyrics;
   } else {
     document.getElementById("banner-song-title").innerText = "Song not found";
