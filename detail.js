@@ -962,7 +962,7 @@ Whip-whiplash, one look, give 'em whiplash`,
       title: "Shout Out",
       artist: "ENHYPEN",
       image: "assets/kpop/enhypen.png",
-      audio: "assets/kpop/whiplash.mp3",
+      audio: "assets/kpop/'SHOUT OUT' Tour video - ENHYPEN (엔하이픈).mp3",
       year: 2021,
       desc: "They told us that it was going to be sort of like an unofficial fan song where we can really perform in front of our fans at a concert maybe. And, you know, we did perform that… and it was sort of what I imagined it would be like… Before, when I was writing, we hadn’t done a concert yet… so I had to use my imagination… What I imagined back then is sort of what happened, so it was really meaningful to me.",
       lyrics: `[Intro: Heeseung, NI-KI]
