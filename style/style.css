@@ -914,7 +914,7 @@ footer .social a{
 .album-card {
   flex: 0 0 auto;
   width: 250px;
-  height: 300px;
+  height: 350px;
   background: #2E2E2E;
   border-radius: 10px;
   box-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
@@ -941,6 +941,16 @@ footer .social a{
   object-fit: cover;
   border-radius: 5px;
 }
+
+.short-description {
+    font-size: 12px;
+    color: #555;
+    margin-top: 8px;
+    margin-bottom: 10px;
+
+    font-style: italic;
+}
+
 
 .track-title {
   margin-top: 0.5rem;
@@ -1084,6 +1094,18 @@ footer .social a{
   margin-top: 20px;
   width: 100%;
 }
+
+.song-desc{
+  padding: 20px;
+  font-size: 1rem;
+}
+
+.desc-border{
+  border-right: 3px solid orangered;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
 
 .song-detail-lyrics {
   flex: 2;
