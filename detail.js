@@ -1260,8 +1260,8 @@ Hit you with that ddu-du, ddu-du, du`,
     15: {
       title: "Life Is Still Going On",
       artist: "NCT Dream",
-      image: "assets/kpop/whiplash.png",
-      audio: "assets/kpop/whiplash.mp3",
+      image: "assets/kpop/nct.png",
+      audio: "assets/kpop/nct.mp3",
       year: 2021,
       desc: "Uplifting song with bright melodies and reassuring lyrics that remind listeners to keep going, even through tough times.",
       lyrics: `[Chorus: Haechan, Chenle]
