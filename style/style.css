@@ -353,7 +353,7 @@ footer .social a{
 #filter-section {
   background-color: var(--body-color);
   margin-top: 100px;
-
+  margin-bottom: 100px;
 }
 
 #filter-section .container {
@@ -956,6 +956,8 @@ footer .social a{
 .artist-name {
   font-weight: 500;
   color: #999999;
+  margin-top: 4px;
+  font-size: 14px;
 }
 
 .album-footer {
@@ -985,7 +987,6 @@ footer .social a{
   margin-bottom: 60px;
   display: flex;
   flex-direction: column;
-
   flex: 1;
 }
 
@@ -993,7 +994,6 @@ footer .social a{
   left: 70px ;
   position: absolute;
 }
-
 
 
 .back-btn:hover {
@@ -1011,6 +1011,7 @@ footer .social a{
   gap: 25px;
   border-radius: 8px; /* Optional: rounded corners untuk header ini */
   margin-bottom: 2rem; /* Jarak ke song-detail-body */
+  max-width: 900px;
 }
 
 .banner-album-art-img {
@@ -1039,8 +1040,8 @@ footer .social a{
   margin-bottom: 5px;
 }
 
-.banner-song-title { /* Menggantikan h1#song-title asli */
-  font-size: 3.5rem; /* Disesuaikan dari 4rem agar tidak terlalu besar */
+.banner-song-title { 
+  font-size: 3.5rem; 
   font-weight: 700;
   color: #fff;
   line-height: 1.1;

@@ -606,7 +606,7 @@ Dreaming of Saturn, oh` ,
       title: "Talk",
       artist: "Khalid",
       image: "/assets/rnb/khalid.png",
-      audio: "/assets/rnb/assets/rnb/Khalid - Talk (Official Video).mp3",
+      audio: "/assets/rnb/talk.mp3",
       year: 2019,
       desc: "“Talk” is the lead single from Khalid’s sophomore album. The song marks his first collaboration with electronic production duo Disclosure. \nIn the song, Khalid laments about a relationship moving too fast and the need for communication between both members of the relationship. \nThe song was teased by Khalid a day before its release and premiered on Zane Lowe’s Beats 1 Radio show:",
       lyrics: `[Chorus]
@@ -675,7 +675,7 @@ Figure out where we're goin'` ,
       title: "Love Songs",
       artist: "Kaash Paige",
       image: "/assets/rnb/kaash.png",
-      audio: "/assets/rnb/Kaash Paige - Love Songs  (Official Music Video).mp3",
+      audio: "/assets/rnb/kp-lovesongs.mp3",
       year: 2019,
       desc: "This is one of those songs I sing and just think about all the lame people who played me in life and I just sit there and be like.",
       lyrics:` [Verse 1]
@@ -726,7 +726,7 @@ You got me singing love songs (Love songs, love songs)` ,
       title: "Double Take",
       artist: "Dhruv",
       image: "/assets/rnb/dhruv.png",
-      audio: "/assets/rnb/Dhruv - double take (Official Video).mp3",
+      audio: "/assets/rnb/dhruv-DT.mp3",
       year: 2019,
       desc: "“double take” follows dhruv as he falls in love with one of his friends, and he wonders if his friend feels the same way. The single was the first released song by dhruv after a couple of SoundCloud releases.",
       lyrics:`[Intro]
@@ -803,10 +803,10 @@ Feel the love`,
     },
 
     10:{
-      title: "​Close with desires (right person wrong timing)",
+      title: "​Close with desires",
       artist: "​Teo Glacier",
       image: "/assets/rnb/teo.png",
-      audio: "/assets/rnb/teo glacier  close with desires (official video).mp3",
+      audio: "/assets/rnb/teo.mp3",
       year: 2023,
       desc: "“close with desires” is a song by New Zealand-born artist, teo glacier and produced by Rory Noble. The song was first teased on 13th April, 2023. After attaining millions of views on TikTok and over 407.7k posts using the sound, the South Auckland-musician released the song on 17th May, 2023 after a long-anticipated wait. He got over 1,000,000 streams on Spotify alone in less than four days. The music video for the song premiered on 26th May, 2023 and has over 180,000 views.",
       lyrics:`[Verse 1]
@@ -1147,25 +1147,217 @@ Baby, I'm a shadow of you`,
     },
 
     14: {
-      title: "",
-      artist: "",
-      image: "assets/kpop/whiplash.png",
-      audio: "assets/kpop/whiplash.mp3",
-      year: 2021,
-      desc: "",
-      lyrics: ``,
+      title: "뚜두뚜두 (DDU-DU DDU-DU)",
+      artist: "BLACKPINK",
+      image: "assets/kpop/dududu.png",
+      audio: "assets/kpop/dududu.mp3",
+      year: 2018,
+      desc: "The girls are unapologetically savage. They’re not shy about letting you know about the success they’ve amassed.",
+      lyrics: `[Intro: All, Rosé]
+BLACKPINK!
+(Ah yeah, ah yeah!)
+BLACKPINK!
+(Ah yeah, ah yeah!)
+
+[Verse 1: Jennie, Lisa, All]
+Ayy, chaghan eolgure geureoji mothan taedo (Huh)
+Ganyeorin mommae sok garyeojin volumeeun du baero (Yah, yah, double up) (Woo!)
+Geochimeopsi jikjin gudi bojin anhji nunchi
+Black hamyeon Pink urin yeppeujanghan Savage (BLACKPINK!)
+Wonhal ttaen daenohko ppaetji (Uh)
+Neon mwol haedo kallo mul begi (Uh)
+Du sonen gadeughan fat check
+Gunggeumhamyeon haebwa fact check
+Nun nopin kkokdaegi
+Mul mannan mulgogi
+Jom doghae nan Toxic
+You hokae I'm Foxy
+
+[Pre-Chorus: Rosé, Jisoo, Jennie]
+Du beon saenggakae
+Heunhan namdeulcheoreom chaghan cheogeun mot hanikka
+Chaghakaji ma
+Swipge useojuneun geon nal wihan geoya
+Ajigeun jal moreugetji
+Guji wonhamyeon test me
+Neon bul bodeusi ppeonhae
+Manmanhan geol wonhaetdamyeon
+Oh, wait 'til I do what I do
+See upcoming pop shows
+Get tickets for your favorite artists
+
+You might also like
+Fortnight
+Taylor Swift
+So Long, London
+Taylor Swift
+BLACKPINK - Kill This Love (Romanized)
+Genius Romanizations
+
+[Chorus: Jennie, Jisoo]
+Hit you with that ddu-du, ddu-du, du
+(Ah yeah, ah yeah!)
+Hit you with that ddu-du, ddu-du, du
+(Ah yeah, ah yeah!)
+Ddu-du, du-du-du-du-du
+
+[Interlude: All]
+(Hit you with that, hit you with that, hit you with that)
+BLACKPINK!
+
+[Verse 2: Jennie]
+Jigeum naega geoleoganeun geolin
+BLACKPINK 4 way sageori
+Dongseonambuk sabangeulo run it
+Need a bucket list ssak da I bought it
+Neol dangineun geotdo meolli milchineun geotdo
+Jemeotdaero haneun bad girl
+Jogheon sileohageon nuga mwora hadeon
+When the bass drop, it's another banger
+
+[Pre-Chorus: Jisoo, Rosé, Jennie]
+Du beon saenggakae
+Heunhan namdeulcheoreom chaghan cheogeun mot hanikka
+Chakgakaji ma
+Swipge useojuneun geon nal wihan geoya
+Ajigeun jal moreugetji
+Guji wonhamyeon test me
+Neon bul bodeusi ppeonhae
+Manmanhan geol wonhaetdamyeon
+Oh, wait 'til I do what I do
+
+
+[Chorus: Lisa, Rosé, Jisoo]
+Hit you with that ddu-du, ddu-du, du
+(Ah yeah, ah yeah)
+Hit you with that ddu-du, ddu-du, du
+(Ah yeah, ah yeah)
+Ddu-du, du-du-du-du-du
+
+[Bridge: Rosé, Lisa]
+What you gonna do when I
+Come, come through with that, that, uh (Uh-huh)
+What you gonna do when I
+Come, come through with that, that, uh (Uh-huh)
+Tteugeowo, tteugeowo, tteugeowo like fire (Fire)
+(Ddu-du, du-du-du-du-du, ddu-du, du-du-du-du-du)
+Tteugeowo, tteugeowo, tteugeowo like fire (Fire)
+(Ddu-du, du-du-du-du-du, ddu-du, du-du-du-du-du)
+
+[Drop: All, Rosé, Jisoo]
+BLACKPINK! (Hey!)
+(Ddu-du, du-du-du-du, du-du-du-du)
+(Ah yeah, ah yeah, ah yeah, ah yeah!)
+Tteugeowo, tteugeowo, tteugeowo like fire (Hey!)
+Tteugeowo, tteugeowo, tteugeowo like fire
+
+[Outro: Jennie]
+Hit you with that ddu-du, ddu-du, du`,
       genre: "K-Pop",
       type: "Group",
     },
 
-    14: {
-      title: "",
-      artist: "",
+    15: {
+      title: "Life Is Still Going On",
+      artist: "NCT Dream",
       image: "assets/kpop/whiplash.png",
       audio: "assets/kpop/whiplash.mp3",
       year: 2021,
-      desc: "",
-      lyrics: ``,
+      desc: "Uplifting song with bright melodies and reassuring lyrics that remind listeners to keep going, even through tough times.",
+      lyrics: `[Chorus: Haechan, Chenle]
+Don't stop the music, 왜 멈춰 있어?
+춤추듯 돌아가, life is a party so
+딱히 뭘 안 해도, tick-tock, tick-tock
+Life is still going on, 그저 흘러가
+Hey, DJ play that song, 다음 노래
+It's like a music box, 걱정은 그만해
+오늘은 즐겨봐 잠시라도
+Life is still going on, 암튼 흘러가
+
+[Verse 1: Mark, Jeno, Jisung]
+야, 요즘 왜 그리 풀이 죽어 있어?
+야, 어깨 좀 펴라 옆엔 내가 있어
+인생이란 게 뜻대로 안 되지, uh?
+참 맘이란 게 맘대로 안 되지, uh?
+That's right
+어른이 돼가나 봐, 사는 게 그런가 봐
+사람들 다 앞서 나가는 듯한, 나 혼자 멈춘 듯한
+That's a life
+어쩔 수 없는 듯한 막연한 불안함
+Tell me if you're feeling that
+나도 그래 가끔씩
+
+[Pre-Chorus: Renjun, Haechan]
+고민 따윈 잠시 던져 놔
+To the sound of the music
+마음속의 소릴 들어봐
+원하는 건, do it, 그냥 do it
+See NCT DREAM Live
+Get tickets as low as $348
+
+You might also like
+The Tortured Poets Department
+Taylor Swift
+loml
+Taylor Swift
+Is It Over Now? (Taylor’s Version) [From The Vault]
+Taylor Swift
+
+[Chorus: Jisung, Jaemin]
+Don't stop the music, 왜 멈춰 있어?
+춤추듯 돌아가, life is a party so
+딱히 뭘 안 해도, tick-tock, tick-tock
+Life is still going on, 그저 흘러가
+Hey, DJ play that song, 다음 노래
+It's like a music box, 걱정은 그만해
+오늘은 즐겨봐 잠시라도
+Life is still going on, 암튼 흘러가
+
+[Verse 2: Jeno, Mark, Jisung, Jaemin, *Jaemin & Haechan*]
+자 다들 하잖아 괜한 짓 엄한짓두
+누가 보면은 금방이라도 세상이 망한 줄
+균형을 잡아가는 중 (Yeah), 헛발질 좀 한 것뿐 (Yeah)
+원기옥을 모았다 쏴 (Yeah), tick-tick-tick, boom
+태엽을 감아, 다시 해도 괜찮아
+조금 비틀대다 혼자만의 리듬을 찾아
+잠깐 흔들려도 돼, 멀리 돌아가도 돼
+즐길 수 있으면 돼, 결국 행복하면 *돼*
+
+[Pre-Chorus: Chenle, Chenle & Haechan, Renjun, Renjun & Haechan]
+고민 따윈 잠시 던져 놔
+To the sound of the music
+마음속의 소릴 들어봐
+원하는 건, do it, 그냥 do it
+
+
+[Chorus: Mark, Chenle, Jeno, Renjun]
+Don't stop the music, 왜 멈춰 있어?
+춤추듯 돌아가, life is a party so
+딱히 뭘 안 해도, tick-tock (Tick-tock, oh) tick-tock
+Life is still going on, 그저 흘러가
+(Oh) Hey, DJ play that song, 다음 노래
+It's like a music box, 걱정은 그만해
+오늘은 즐겨봐 (Yeah) 잠시라도
+Life is still going on, 암튼 흘러가
+
+[Bridge: Jaemin, Jisung, Renjun, Haechan, *Chenle*, **Jeno**]
+요즘 왜 그리 풀이 죽어 있어? Yeah, yeah, yeah, yeah
+어깨 좀 펴라 옆엔 내가 있어 oh, yeah
+So let's go (Let's go)
+그 어떤 것도 막지 못해
+*언젠가 지나갈 거야, 결국에 알게 될 거야
+So what you waiting for?* (Waiting for?)
+**One, two, three, four**
+
+[Chorus: All, Haechan, Chenle, Renjun]
+Don't stop the music, 왜 멈춰 있어? (Woo, ooh, woo)
+춤추듯 돌아가, life is a party so
+딱히 뭘 안 해도, tick-tock, tick-tock
+Life is still going on (Yeah), 그저 흘러가
+Hеy, DJ play that song (Yeah), 다음 노래
+It's like a music box, 걱정은 그만해
+오늘은 즐겨봐 (Oh), 잠시라도
+Life is still going on, 암튼 흘러가`,
       genre: "K-Pop",
       type: "Group",
     },
