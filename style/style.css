@@ -989,6 +989,7 @@ footer .social a{
   display: flex;
   flex-direction: column;
   flex: 1;
+  position: relative;
 }
 
 .back-btn-wrapper {
@@ -997,10 +998,25 @@ footer .social a{
 }
 
 
+.back-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: var(--text-color);
+  background-image: linear-gradient(to bottom right, rgb(239, 38, 38), rgba(219, 147, 87));
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: var(--font-semi-bold);
+  cursor: pointer;
+  z-index: 10;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
 .back-btn:hover {
   background-color: orange;
-  color: black;
-  cursor: pointer;
+  color: #444;
 }
 
 .song-detail-header {
@@ -1013,6 +1029,7 @@ footer .social a{
   border-radius: 8px; /* Optional: rounded corners untuk header ini */
   margin-bottom: 2rem; /* Jarak ke song-detail-body */
   max-width: 900px;
+    position: relative;
 }
 
 .banner-album-art-img {
@@ -1264,4 +1281,148 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+
+@media screen and (max-width: 800px) {
+  /* Login Page */
+
+
+.authentication-holder {
+    transform-origin: top center;
+    min-height: 100vh;
+  }
+
+  .form-container {
+    width: 50%;
+    height: 100%;
+  }
+
+  .authentication-holder input {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  .authentication-holder button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  .radio-group {
+    font-size: 12px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .toggle-panel h1,
+  .form-container h1 {
+    font-size: 1.2rem;
+  }
+
+  .authentication-holder span,
+  .authentication-holder a {
+    font-size: 11px;
+  }
+
+  .toggle-container {
+    width: 50%;
+  }
+
+  .toggle-panel {
+    padding: 0 15px;
+  }
+
+  /* Album Cards */
+  .album-card {
+    width: 200px;
+    height: auto;
+  }
+
+  .album-top img {
+    height: auto;
+  }
+
+  .album-scroll-container {
+    gap: 1rem;
+    padding: 0.5rem 0;
+  }
+
+  /* Detail page */
+  .song-detail-header {
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .banner-album-art-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .song-detail-body {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .desc-border, .border-lyrics {
+    padding: 10px;
+  }
+
+  .back-btn-wrapper {
+    position: static;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .song-desc,
+  .song-lyrics {
+    font-size: 0.9rem;
+  }
+
+/* About US  */
+
+  #about-section .container h1 {
+    font-size: 1.8rem; /* Kecilkan font H1 */
+  }
+  #about-section .container h2 {
+    font-size: 1.3rem; /* Kecilkan font H2 */
+  }
+  #about-section .container p,
+  #about-section .container .team-list li {
+    font-size: 0.95rem; /* Sesuaikan font paragraf dan list */
+  }
+
+  .timeline-line {
+    flex-direction: column; /* Susun kartu timeline secara vertikal */
+    align-items: center; /* Pusatkan kartu timeline */
+    border-top: none; /* Hapus garis horizontal utama */
+    padding-top: 0;
+  }
+  .timeline-card {
+    max-width: 90%; /* Lebar kartu timeline lebih besar */
+    /* Hapus ::before untuk garis vertikal per kartu jika susunan vertikal */
+  }
+   .timeline-card::before {
+      display: none; /* Sembunyikan garis vertikal kecil di atas kartu */
+   }
+   .timeline-year::before{
+       top: -25px; /* Sesuaikan posisi dot tahun */
+       border-width: 2px;
+       width: 12px;
+       height: 12px;
+   }
+   /* Garis vertikal utama untuk menghubungkan dot tahun */
+   .timeline-line::before {
+       content: "";
+       position: absolute;
+       left: 50%;
+       transform: translateX(-50%);
+       top: 0; /* Mulai dari atas */
+       bottom: 0; /* Sampai bawah */
+       width: 2px;
+       background: #fff;
+       z-index: 0; /* Di belakang dot */
+       display: block; /* Tampilkan garis ini */
+   }
+
+  
 }
