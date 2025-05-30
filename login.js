@@ -55,4 +55,34 @@ document.addEventListener("DOMContentLoaded", function () {
 
         alert("Registration successful!");
     });
+
+
+
+    const signinForm = document.getElementById("signin-form");
+
+signinForm.addEventListener("submit", function (event) {
+    event.preventDefault(); // Mencegah reload
+
+    const email = document.getElementById("signin-email").value.trim();
+    const password = document.getElementById("signin-password").value;
+
+    if (!email.includes("@") || !email.includes(".")) {
+        alert("Invalid email format.");
+        return;
+    }
+
+    if (password.length < 6) {
+        alert("Password must be at least 6 characters.");
+        return;
+    }
+
+    // Redirect jika valid
+    window.location.href = "index.html";
+});
+
+
+
+
+
+
 });
