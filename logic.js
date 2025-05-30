@@ -89,3 +89,24 @@ $rotatorHolder.on('mousemove', function(e) {
   position = dragStartPosition + walk;
   $rotatorHolder.css('transform', `translateX(${position}px)`);
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+        // Map featured card IDs to song IDs (adjust as needed)
+        const featuredMap = {
+          featured1: 4,
+          featured2: 3,
+          featured3: 13,
+          featured4: 10,
+          featured5: 5
+        };
+        Object.keys(featuredMap).forEach(function(cardId) {
+  const el = document.getElementById(cardId);
+  if (el) {
+    el.style.cursor = "pointer";
+    el.addEventListener("click", function () {
+      sessionStorage.setItem("cg_lastPage", window.location.pathname.replace(/^.*[\\/]/, ''));
+      window.location.href = "sd.html?id=" + featuredMap[cardId];
+    });
+  }
+});  
+       });

@@ -1,4 +1,3 @@
-
 // Song Detail
 console.log("song2:", document.getElementById("song2"));
 
@@ -6,108 +5,114 @@ console.log("song2:", document.getElementById("song2"));
 
 
 // Direct dari sc ke detail by id
+ function goToDetail(songId) {
+  // Save the current page as the referrer
+  sessionStorage.setItem("cg_lastPage", window.location.pathname.replace(/^.*[\\/]/, ''));
+  window.location.href = "sd.html?id=" + songId;
+}
+
  const s1 = document.getElementById("song1");
   if (s1) {
     s1.addEventListener("click", function () {
-      window.location.href = "sd.html?id=1";
+      goToDetail(1);
     });
   }
 
   const s2 = document.getElementById("song2");
   if (s2) {
     s2.addEventListener("click", function () {
-      window.location.href = "sd.html?id=2";
+      goToDetail(2);
     });
   }
 
   const s3 = document.getElementById("song3");
   if (s3) {
     s3.addEventListener("click", function () {
-      window.location.href = "sd.html?id=3";
+      goToDetail(3);
     });
   }
 
   const s4 = document.getElementById("song4");
   if (s4) {
     s4.addEventListener("click", function () {
-      window.location.href = "sd.html?id=4";
+      goToDetail(4);
     });
   }
 
   const s5 = document.getElementById("song5");
   if (s5) {
     s5.addEventListener("click", function () {
-      window.location.href = "sd.html?id=5";
+      goToDetail(5);
     });
   }
 
   const s6 = document.getElementById("song6");
   if (s6) {
     s6.addEventListener("click", function () {
-      window.location.href = "sd.html?id=6";
+      goToDetail(6);
     });
   }
 
   const s7 = document.getElementById("song7");
   if (s7) {
     s7.addEventListener("click", function () {
-      window.location.href = "sd.html?id=7";
+      goToDetail(7);
     });
   }
 
   const s8 = document.getElementById("song8");
   if (s8) {
     s8.addEventListener("click", function () {
-      window.location.href = "sd.html?id=8";
+      goToDetail(8);
     });
   }
 
   const s9 = document.getElementById("song9");
   if (s9) {
     s9.addEventListener("click", function () {
-      window.location.href = "sd.html?id=9";
+      goToDetail(9);
     });
   }
 
   const s10 = document.getElementById("song10");
   if (s10) {
     s10.addEventListener("click", function () {
-      window.location.href = "sd.html?id=10";
+      goToDetail(10);
     });
   }
 
   const s11 = document.getElementById("song11");
   if (s11) {
     s11.addEventListener("click", function () {
-      window.location.href = "sd.html?id=11";
+      goToDetail(11);
     });
   }
 
   const s12 = document.getElementById("song12");
   if (s12) {
     s12.addEventListener("click", function () {
-      window.location.href = "sd.html?id=12";
+      goToDetail(12);
     });
   }
 
   const s13 = document.getElementById("song13");
   if (s13) {
     s13.addEventListener("click", function () {
-      window.location.href = "sd.html?id=13";
+      goToDetail(13);
     });
   }
 
   const s14 = document.getElementById("song14");
   if (s14) {
     s14.addEventListener("click", function () {
-      window.location.href = "sd.html?id=14";
+      goToDetail(14);
     });
   }
 
   const s15 = document.getElementById("song15");
   if (s15) {
     s15.addEventListener("click", function () {
-      window.location.href = "sd.html?id=15";
+      goToDetail(15);
     });
   } 
 
@@ -187,7 +192,7 @@ That look makes me impatient
 I can't tell what you're thinking
 Please, tell me what you're thinking
 Last night, we were more than fine
-Just tell me if you changed your mind
+Just tell me if you changed your mind
 If you changed your mind (Mind)
 
 [Pre-Chorus: Lauv]
@@ -932,7 +937,7 @@ Beat drop with a big flash
 집중해 좀 더 think fast
 이유 넌 이해 못 해 uh
 왜 이제야 know I did that, uh (yeah)
-Day one, know I been bad, uh
+Day one, know I been bad, uh (been bad)
 Don't stop 흔들린 채 (yeah)
 무리해도 can't touch that (can't touch that)
 
@@ -1402,4 +1407,13 @@ My life still goes on`,
     });
 
 
+});
+
+document.getElementById("back-btn").addEventListener("click", function () {
+    const lastPage = sessionStorage.getItem("cg_lastPage");
+    if (lastPage === "index.html" || lastPage === "sc.html") {
+      window.location.href = lastPage;
+    } else {
+      window.location.href = "index.html"; // fallback
+    }
 });
