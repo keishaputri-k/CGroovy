@@ -104,7 +104,11 @@ document.addEventListener("DOMContentLoaded", function () {
   if (el) {
     el.style.cursor = "pointer";
     el.addEventListener("click", function () {
-      sessionStorage.setItem("cg_lastPage", window.location.pathname.replace(/^.*[\\/]/, ''));
+      // Replace regex with split and pop
+      const fullPath = window.location.pathname;
+      const pathParts = fullPath.split('/');
+      const currentPage = pathParts[pathParts.length - 1];
+      sessionStorage.setItem("cg_lastPage", currentPage);
       window.location.href = "sd.html?id=" + featuredMap[cardId];
     });
   }

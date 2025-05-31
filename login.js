@@ -1,4 +1,3 @@
-
 const container = document.getElementById('container');
 const registerBtn = document.getElementById('register');
 const loginBtn = document.getElementById('login');
@@ -14,8 +13,16 @@ loginBtn.addEventListener('click', () => {
 document.addEventListener("DOMContentLoaded", function () {
     const signupForm = document.getElementById("signup-form");
 
-    signupForm.addEventListener("submit", function (event) {
+    function isValidEmail(email) {
+        // Check if email contains @ and at least one dot after @
+        const atIndex = email.indexOf('@');
+        if (atIndex === -1) return false;
+        
+        const dotIndex = email.indexOf('.', atIndex);
+        return dotIndex > atIndex;
+    }
 
+    signupForm.addEventListener("submit", function (event) {
         const name = document.getElementById("name").value.trim();
         const email = document.getElementById("email").value.trim();
         const password = document.getElementById("password").value;
@@ -29,8 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        if (!email.includes("@") || !email.includes(".")) {
-            alert("Email must contain '@' and '.'");
+        if (!isValidEmail(email)) {
+            alert("Please enter a valid email address");
             event.preventDefault();
             return;
         }
@@ -60,29 +67,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const signinForm = document.getElementById("signin-form");
 
-signinForm.addEventListener("submit", function (event) {
-    event.preventDefault(); // Mencegah reload
+    signinForm.addEventListener("submit", function (event) {
+        event.preventDefault(); // Mencegah reload
 
-    const email = document.getElementById("signin-email").value.trim();
-    const password = document.getElementById("signin-password").value;
+        const email = document.getElementById("signin-email").value.trim();
+        const password = document.getElementById("signin-password").value;
 
-    if (!email.includes("@") || !email.includes(".")) {
-        alert("Invalid email format.");
-        return;
-    }
+        if (!isValidEmail(email)) {
+            alert("Please enter a valid email address");
+            return;
+        }
 
-    if (password.length < 6) {
-        alert("Password must be at least 6 characters.");
-        return;
-    }
+        if (password.length < 6) {
+            alert("Password must be at least 6 characters.");
+            return;
+        }
 
-    // Redirect jika valid
-    window.location.href = "index.html";
-});
-
-
-
-
-
-
+        // Redirect jika valid
+        window.location.href = "index.html";
+    });
 });
