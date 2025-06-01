@@ -671,7 +671,7 @@ footer .social a{
     font-size: 12px;
 }
 
-.authentication-holder a {
+.authentication-holder a{
     color: #333;
     font-size: 13px;
     text-decoration: none;
@@ -691,6 +691,7 @@ footer .social a{
     margin-top: 10px;
     cursor: pointer;
 }
+
 
 .authentication-holder button.hidden{
     background-color: transparent;
@@ -886,6 +887,22 @@ footer .social a{
     cursor: pointer;
 }
 
+a.login-page-back-btn{
+    background-color: rgb(240, 62, 62);
+    color: white;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
 /* SC */
 #featured-music {
   padding: 2rem 0;
@@ -975,10 +992,27 @@ footer .social a{
   padding: 5px 10px;
   border-radius: 5px;
   text-decoration: none;
+  border: none;
 }
 
 .music-container{
   margin-top: 50px;
+}
+
+.genre-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.see-all-link {
+  font-size: 16px;
+  color: white;
+}
+
+.see-all-link:hover {
+  color: rgb(255, 96, 22);
+  text-decoration: underline;
 }
 
 
@@ -1172,6 +1206,85 @@ footer .social a{
   display: block;
 }
 
+
+/* Genre PAge */
+.genre-section {
+  margin-top: 120px;
+}
+
+/* Grid layout untuk daftar lagu per genre */
+.genre-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+} 
+
+/* === Banner Khusus Halaman Genre === */
+.genre-banner {
+  background-color: #3a3530;
+  padding: 30px;
+  color: var(--text-color);
+  display: flex;
+  align-items: flex-end;
+  gap: 25px;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  max-width: 900px;
+  position: relative;
+}
+
+.genre-banner-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.genre-banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.genre-type {
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #c0c0c0;
+  margin-bottom: 5px;
+}
+
+.genre-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.genre-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #dcdcdc;
+}
+
+.genre-dot {
+  padding: 0 2px;
+}
+
+.genre-deskripsi{
+  max-width: 400px;
+}
+
+
+
 @media (max-width: 1024px) {
   .gallery {
     grid-template-columns: repeat(10, 90vw);
@@ -1308,6 +1421,10 @@ img {
     padding: 10px 20px;
   }
 
+.login-page-back-btn {
+    padding: 10px 20px;
+  }
+
   .radio-group {
     font-size: 12px;
     gap: 10px;
@@ -1424,5 +1541,39 @@ img {
        display: block; /* Tampilkan garis ini */
    }
 
+
+   /* Genre Page */
+  .genre-banner {
+    flex-wrap: wrap;
+    position: relative;
+    text-align: left;
+  }
+
+  .genre-banner-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .genre-title {
+    font-size: 2rem;
+  }
+
+.genre-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.85rem;
+}
+
+  .genre-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .album-card {
+    width: 100%;
+    max-width: 320px;
+  }
   
 }

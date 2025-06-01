@@ -1415,7 +1415,7 @@ My life still goes on`,
 
 document.getElementById("back-btn").addEventListener("click", function () {
     const lastPage = sessionStorage.getItem("cg_lastPage");
-    if (lastPage === "index.html" || lastPage === "sc.html") {
+    if (lastPage === "index.html" || lastPage === "sc.html" || lastPage === "pop.html" || lastPage === "rnb.html" || lastPage === "kpop.html") {
       window.location.href = lastPage;
     } else {
       window.location.href = "index.html"; // fallback
