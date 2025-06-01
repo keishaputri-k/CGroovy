@@ -6,8 +6,12 @@ console.log("song2:", document.getElementById("song2"));
 
 // Direct dari sc ke detail by id
  function goToDetail(songId) {
-  // Save the current page as the referrer
-  sessionStorage.setItem("cg_lastPage", window.location.pathname.replace(/^.*[\\/]/, ''));
+  // Get current page name without regex
+  const pathParts = window.location.pathname.split('/');
+  const currentPage = pathParts[pathParts.length - 1] || 'index.html';
+  
+  // Save the current page
+  sessionStorage.setItem("cg_lastPage", currentPage);
   window.location.href = "sd.html?id=" + songId;
 }
 
@@ -935,7 +939,7 @@ Just close your eyes, breathe in and visualize
 One look, give 'em whiplash (sheesh)
 Beat drop with a big flash
 집중해 좀 더 think fast
-이유 넌 이해 못 해 uh
+이유 넌 이해 못 해 uh (yeah)
 왜 이제야 know I did that, uh (yeah)
 Day one, know I been bad, uh (been bad)
 Don't stop 흔들린 채 (yeah)
