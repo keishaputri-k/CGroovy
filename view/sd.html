@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Song Detail | C'Groovy</title>
-  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="../style/style.css" />
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
@@ -12,24 +12,24 @@
     <header>
         <div class="container">
             <div class="logo">
-                <a href="index.html">C'Groovy</a>
+                <a href="../view/index.html">C'Groovy</a>
             </div>
             <div class="gapper">
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="../view/index.html">Home</a></li>
                         <li class="dropdown">
-                            <a class="cur-page" href="sc.html">Song collection</a>
+                            <a class="cur-page" href="../view/sc.html">Song collection</a>
                             <ul class="dropdown-content">
-                                <li><a href="pop.html">Pop</a></li>
-                                <li><a href="rnb.html">R&B</a></li>
-                                <li><a href="kpop.html">K-Pop</a></li>
+                                <li><a href="../view/pop.html">Pop</a></li>
+                                <li><a href="../view/rnb.html">R&B</a></li>
+                                <li><a href="../view/kpop.html">K-Pop</a></li>
                             </ul>
                         </li>
-                        <li><a href="au.html" >About Us</a></li>
+                        <li><a href="../view/au.html" >About Us</a></li>
                     </ul>
                 </nav>
-                <a href="login.html" class="lgn-btn">Join Us</a>
+                <a href="../view/login.html" class="lgn-btn">Join Us</a>
             </div>
         </div>
     </header>
@@ -41,7 +41,7 @@
             <div class="container">
                 <div class="song-detail-header">
                     <button id="back-btn" class="back-btn">Back</button>
-                    <img src="./assets/reckless.png" alt="Album Image" id="banner-album-art" class="banner-album-art-img"> 
+                    <img src="../assets/reckless.png" alt="Album Image" id="banner-album-art" class="banner-album-art-img"> 
                     <div class="banner-text-details">
                     <p class="banner-song-type" id="banner-song-type">Single</p> <h1 class="banner-song-title" id="banner-song-title">Reckless</h1> 
                     <div class="banner-artist-info">
@@ -52,7 +52,7 @@
         </div>
         <div class="song-detail-body">
             <div class="song-detail-mp">
-            <audio id="song-audio" controls src="./assets/reckless.mp3"></audio>
+            <audio id="song-audio" controls src="../assets/reckless.mp3"></audio>
             </div>
         <div class="song-detail-lyrics">
             <div class="desc-border">
@@ -127,6 +127,6 @@
     </footer>
 
   <!-- JS untuk ambil data -->
-  <script src="detail.js"></script>
+  <script src="../script/detail.js"></script>
 </body>
 </html>
